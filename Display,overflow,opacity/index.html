@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p style="text-align: center; font-size: 40px;">Working-On</p>
+    <h1>Display Properties &Visibility||Opacity||Overflow</h1>
+
+    <div id="continer">
+      <div class="row">
+        <a href="#display">
+          <div>
+            <p>display:block</p>
+            <p>display:inline</p>
+            <p>display:none</p>
+            <p>display:inline-block</p>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#VisibilitySection"
+          ><div>
+            <p>Visibility:hiden</p>
+            <p>Visibility:visible</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="row">
+        <a href="#OverflowSection"
+          ><div>
+            <p>Overflow:scroll</p>
+            <p>Overflow:hiden</p>
+            <p>Overflow:auto</p>
+            <p>Overflow:visible</p>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#opacitySection">
+          <div>
+            <p>Opacity:0.1</p>
+            <p>Opacity:1</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <hr />
+    <!-- --------------------------------------------------------DisplaySection-------------------------------------------------- -->
+    <div>
+      <h1 style="background-color: lightblue" id="display">Display</h1>
+      <hr />
+      <marquee behavior="" direction="x"
+        ><h3>
+          The display property specifies the display behavior (the type of
+          rendering box) of an element.
+        </h3></marquee
+      >
+
+      <div id="display_Block">
+        <div>
+          <h3>display: none:</h3>
+          Lorem ipsum dolor....
+          <p class="ex1">HELLO WORLD!</p>
+          Vestibulum volutpat tellus diam....
+        </div>
+        <br /><br />
+
+        <h3>display: inline:</h3>
+        <div>
+          Lorem ipsum dolor....
+          <p class="ex2">HELLO WORLD!</p>
+          Vestibulum volutpat tellus diam....
+        </div>
+        <br /><br />
+
+        <h3>display: block:</h3>
+        <div>
+          Lorem ipsum dolor....
+          <p class="ex3">HELLO WORLD!</p>
+          Vestibulum volutpat tellus diam....
+        </div>
+        <br /><br />
+
+        <h3>display: inline-block:</h3>
+        <div>
+          Lorem ipsum dolor....
+          <p class="ex4">HELLO WORLD!</p>
+          Vestibulum volutpat tellus diam....
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- --------------------------------------------------VisibilitySection------------------------------------------------------------------------------------- -->
+
+    <h1 style="background-color: lightblue" id="VisibilitySection">
+      Visibility
+    </h1>
+    <hr />
+    <marquee behavior="" direction="x"
+      ><h3>
+        The visibility property specifies whether or not an element is visible.
+      </h3></marquee
+    >
+    <p class="hedding">visibility: visible|hidden|collapse|initial|inherit;</p>
+    <div id="visibility-div">
+      <div class="visibility-div-2">
+        <div>
+          <p>Visibility:hidden</p>
+
+          <img src="./imeges/Apple.jpeg" alt="Apple img" /> <br />
+          <b>This image was hidden. it will take space</b>
+        </div>
+      </div>
+      <div class="visibility-div-2">
+        <div>
+          <p>visibility:Visible</p>
+          <img src="./imeges/Apple.jpeg" alt="Apple img" id="image-2" /> <br />
+          <b id="boldTag">This image was visible.</b>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------Opacity Section------------------------------------------------------------------------------- -->
+    <h1 style="background-color: lightblue" id="opacitySection">Opacity</h1>
+    <hr />
+    <marquee behavior="" direction="x"
+      ><h3>
+        The opacity-level describes the transparency-level, where 1 is not
+        transparent at all, 0.5 is 50% see-through, and 0 is completely
+        transparent.
+      </h3></marquee
+    >
+    <p class="hedding">Opacity: 0.3||0.7||1</p>
+    <div class="opacityDiv">
+      <div class="opacity-1">
+        <div>
+          <p>Opacity:0</p>
+
+          <img src="./imeges/Nature.png" alt="Apple img" id="opacityImege-1" />
+          <br />
+          <b>This image Opacity contain 0.3</b>
+        </div>
+      </div>
+      <div class="opacity-1">
+        <div>
+          <p>Opacity:0.5</p>
+          <img
+            src="./imeges/Nature.png"
+            alt="Apple img"
+            class="image-2"
+            id="opacityImege-2"
+          />
+          <br />
+          <b class="boldTag">This image opacity contain 0.6</b>
+        </div>
+      </div>
+      <div class="opacity-1">
+        <div>
+          <p>Opacity:1</p>
+          <img
+            src="./imeges/Nature.png"
+            alt="Apple img"
+            class="image-2"
+            id="opacityImege-3"
+          />
+          <br />
+          <b class="boldTag">This image opacity contain 1.</b>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------------------OverflowSection--------------------------------------------------->
+    <h1 style="background-color: lightblue" id="OverflowSection">Overflow</h1>
+    <hr />
+    <marquee behavior="" direction="x">
+      <h3>
+        The overflow property specifies whether to clip the content or to add
+        scrollbars when the content of an element is too big to fit in the
+        specified area.
+      </h3>
+    </marquee>
+    <p class="hedding">overflow: visible||hidden||scroll||auto</p>
+
+    <div class="overflowDiv">
+      <div class="overflow-1">
+        <div class="overflowWith"><p>Without-overflow</p></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quam
+          eius a ex amet aliquid dolor consequatur porro earum non praesentium
+          labore, quod cupiditate possimus, quibusdam aperiam ullam, eaque nihil
+          nemo! Aliquam nemo quaerat natus tempora, atque perferendis alias
+          quam! Doloremque repellat eligendi obcaecati distinctio similique
+          animi excepturi libero, nam quos consequuntur, nesciunt sit dolorum
+          aspernatur harum modi? Dicta nihil possimus voluptatum minima
+          reiciendis! Architecto, iste pariatur! Explicabo voluptatibus,
+          reiciendis accusantium qui excepturi culpa quisquam ipsum? Quo non
+          corrupti voluptate ipsa eius tenetur libero nobis, repudiandae,
+          debitis illo nihil fugit inventore, nemo aspernatur praesentium
+          possimus nesciunt perspiciatis. Corrupti placeat sequi cupiditate
+          impedit, aliquam, quas enim nobis quam qui doloremque ipsum beatae
+          neque. Esse officia dolore, aperiam eos reiciendis aut veniam sed
+          culpa pariatur quisquam fuga asperiores maxime ipsam doloribus unde
+          ullam sint vitae reprehenderit. Nam vero ducimus officiis eligendi? A
+          harum error facilis quibusdam quisquam itaque dignissimos eius quasi,
+          eaque numquam minima nostrum dicta exercitationem delectus blanditiis.
+          Reiciendis ab error maiores expedita ipsa qui dolor! Impedit
+          consequuntur nulla ex unde et sint deleniti, molestiae consequatur,
+          odio necessitatibus quasi quis error magni exercitationem quos
+          sapiente? Ea corrupti repellendus eveniet nisi eius! Adipisci sequi
+          quisquam veniam necessitatibus obcaecati. Impedit sequi aut maxime?
+        </p>
+      </div>
+
+      <div class="overflow-1" id="overflowAuto">
+        <div class="overflowWith" id="position-div"><p>With-overflow</p></div>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+          corrupti quo excepturi suscipit cupiditate quas autem tempore eum,
+          eius nesciunt ea quia necessitatibus quaerat asperiores vel sed maxime
+          repellendus officiis quidem! Distinctio ut neque maiores harum
+          mollitia facilis, velit impedit fugit eius quibusdam nam. Incidunt
+          cumque dolores, nobis aut voluptates impedit vitae dolore in deleniti
+          quibusdam repellendus deserunt debitis cupiditate autem quisquam
+          asperiores consequatur saepe ad mollitia rerum ea illum placeat. Fuga
+          voluptates quis at non, impedit neque nisi eveniet et ipsa provident
+          dolor assumenda ullam ut, enim voluptatibus rem repellat possimus
+          quaerat doloribus aliquam sit inventore omnis architecto autem.
+          Tenetur numquam vel doloribus repellendus inventore commodi omnis iure
+          eligendi similique, doloremque recusandae veritatis laudantium
+          nostrum, et cupiditate, porro corrupti autem adipisci fugit aut?
+          Corrupti, ullam nihil dolorum eligendi ut autem impedit libero.
+          Laudantium asperiores nisi, architecto molestiae consequatur quae
+          doloribus earum! Beatae mollitia odit natus possimus ut reprehenderit
+          eos necessitatibus tempora ex esse, itaque voluptate sit cupiditate a
+          minima rerum dicta! Omnis earum cupiditate cum, perferendis facilis
+          assumenda voluptatem vitae magnam modi repellendus, autem,
+          necessitatibus deserunt eos tempora aliquid. Magnam fugiat officiis
+          sint nihil odio, eum odit nam omnis asperiores et cumque quia,
+          reiciendis, provident tenetur? Possimus, consequuntur repudiandae?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

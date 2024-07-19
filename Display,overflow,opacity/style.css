@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.hedding{
+    text-align: center;
+    font-size: 40px;
+    background-color: antiquewhite;
+ }
+
+#continer{
+    display: flex;
+    padding:0px 60px
+    
+
+}
+#continer .row{
+    width: 25%;
+    margin-top: 40px;
+    background-color: lightgray;
+    margin: 10px 10px;
+    height: 150px;
+    
+    
+   
+}
+#continer .row a {
+  text-decoration: none;
+ 
+ 
+ 
+}
+#continer .row p{
+    line-height: 220%;
+    
+}
+p.ex1 {
+    display: none;
+    
+}
+p.ex2
+ {display: inline;
+}
+p.ex3 
+{display: block;}
+p.ex4 
+{display: inline-block;}
+
+#display_Block{
+    background-color: #FFFED3;
+   
+    
+}
+ h1,h2{
+    text-align: center;
+}
+marquee{
+    background-color:#134B70;
+    color: white;
+    height: 30px;
+
+}
+/*------------------- visibility Styles-------------------------------- */
+#visibility-div{
+    padding: 0 60px;
+    display: flex;
+    margin: 10px 20px;
+
+}
+#visibility-div .visibility-div-2{
+    width: 50%;
+    margin-top: 30px;
+    display: inline-block;
+    height: 300px;
+    background-color: lightgrey;
+    margin: 10px;
+}
+#visibility-div .visibility-div-2 p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+#visibility-div .visibility-div-2  img{
+    width:250px;
+    margin-left: 150px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+ 
+#visibility-div .visibility-div-2 p:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+#visibility-div .visibility-div-2 b{
+    margin-left: 150px;
+
+}
+#visibility-div .visibility-div-2 #boldTag{
+    margin-left: 200px;
+
+}
+#visibility-div .visibility-div-2 #image-2{
+    visibility: visible;
+}
+
+/* -----------------------OpacityStyle-------------------- */
+
+.opacityDiv{
+    padding: 0 60px;
+    display: flex;
+    margin: 30px 10px;
+   
+    
+
+}
+.opacityDiv .opacity-1{
+
+    width: 33.33%;
+    border: 1px solid rgb(95, 75, 75);
+    margin: 10px 10px;
+    background-color: lightblue;
+
+}
+.opacityDiv .opacity-1 p{
+    text-align: center;
+    font-size: 30px;
+}
+.opacityDiv .opacity-1 img{
+    width: 100%;
+    height: 250px;
+    
+}
+.opacityDiv .opacity-1 b{
+    margin-left: 90px;
+    font-size: 20px;
+}
+.opacityDiv .opacity-1 #opacityImege-1{
+    opacity: 0.2;
+}
+.opacityDiv .opacity-1 #opacityImege-2{
+    opacity: 0.6;
+
+}
+.opacityDiv .opacity-1 #opacityImege-3{
+    opacity: 1;
+}
+
+/* -------------------------------------------------------OverflowStyle-------------------------------------------------------------- */
+.overflowDiv{
+    padding: 0px 60px;
+    display: flex;
+}
+ .overflowDiv .overflow-1{
+    width: 50%;
+    height: 300px;
+    margin: 10px 20px;
+    background-color: #9CDBA6;
+ }
+ .overflowDiv .overflow-1 p{
+    text-align:justify;
+    padding: 10px 20px;
+ }
+ .overflowDiv   #overflowAuto {
+   overflow: auto;
+ }
+ .overflowDiv .overflow-1 .overflowWith p{
+    text-align: center;
+    background-color: #134B70;
+    color: azure;
+    font-size: 30px;
+    
+    
+ }
+ .overflowDiv .overflow-1  #position-div {
+    position: sticky;
+    top: 0;
+ }
